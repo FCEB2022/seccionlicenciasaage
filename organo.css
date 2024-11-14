@@ -1,0 +1,50 @@
+/* Estilo para la sección ORGANIGRAMA */
+.organograma {
+    background-color: #f0f0f0; /* Color gris blanquecino */
+    padding: 20px;
+    text-align: center; /* Centrar el texto dentro de la sección */
+}
+
+.organograma-title {
+    font-size: 28px; /* Tamaño del título */
+    font-weight: bold; /* Negrita para resaltar */
+    margin-bottom: 20px; /* Espacio entre el título y la imagen */
+}
+
+.jefe-img {
+    max-width: 10%; /* Asegura que la imagen no sobresalga */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y la leyenda */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    border: 2px solid #2e2e8b; /* Añade un borde alrededor de la imagen (opcional) */
+}
+
+.jefe-caption p {
+    margin: 5px 0; /* Espacio entre las líneas de la leyenda */
+    color: #333; /* Color del texto de la leyenda */
+}
+/* Estilos para la tabla en la sección ORGANIGRAMA */
+.organograma-table {
+    width: 100%; /* Ancho completo para la tabla */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+.organograma-table td {
+    width: 25%; /* Cada celda ocupa 25% del ancho total */
+    text-align: center; /* Centrar contenido en cada celda */
+}
+
+.negociado-img {
+    max-width: 30%; /* Asegura que la imagen no sobresalga */
+    height: 30%; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y la leyenda */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    border: 2px solid #2e2e8b; /* Añade un borde alrededor de la imagen (opcional) */
+}
+
+.negociado-caption p {
+    margin: 2px 0; /* Espacio entre líneas de la leyenda */
+    color: #333; /* Color del texto de la leyenda */
+}

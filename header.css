@@ -1,0 +1,56 @@
+/* Estilo de la cabecera */
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4479c4; /* Color de fondo azul */
+    padding: 10px 20px;
+    border: 1px solid black; /* Borde negro */
+    color: white;
+}
+
+.logo img {
+    width: 35px; /* Reducir aún más el ancho del logo */
+    height: 25px; /* Ajustar la altura del logo */
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+}
+
+.titulo {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-left: 15px; /* Ajustar el espaciado a la izquierda */
+}
+
+.titulo h1 {
+    font-size: 28px; /* Tamaño de fuente del texto principal */
+    margin: 0;
+    font-weight: bold;
+}
+
+.titulo h2 {
+    font-size: 16px; /* Tamaño de fuente del texto secundario */
+    margin: 0;
+    font-weight: normal;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Espacio entre los elementos del menú */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    color: rgb(61, 18, 162);
+    text-decoration: none;
+    font-size: 14px; /* Ajuste del tamaño del texto del menú */
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}

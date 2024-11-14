@@ -1,0 +1,45 @@
+/* Estilos para la sección de trámites */
+.tramites {
+    background-color: #e6e7ff; /* Color de fondo similar a la imagen proporcionada */
+    background-image: linear-gradient(to right, #d4d8f8, #f4f4fc); /* Degradado suave */
+    padding: 50px 20px; /* Espaciado interno */
+    color: #2e2e8b; /* Color del texto (azul oscuro) */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.tramites-title {
+    font-size: 36px; /* Tamaño del título */
+    font-weight: bold; /* Negrita */
+    color: #2e2e8b; /* Color del título */
+    margin-bottom: 30px; /* Espaciado debajo del título */
+    text-align: center; /* Centrar el título */
+}
+
+.tramites-content {
+    display: flex; /* Usar flexbox para organizar los trámites */
+    flex-direction: column; /* Organizar en columna */
+    gap: 15px; /* Espacio entre los elementos */
+    max-width: 800px;
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+.tramite {
+    display: flex; /* Organizar el icono y el texto en fila */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #ffffff; /* Fondo blanco para cada trámite */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.icono {
+    font-size: 20px; /* Tamaño del icono */
+    color: #4a56e2; /* Color del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #2e2e8b; /* Color del texto */
+    margin: 0; /* Eliminar márgenes alrededor del párrafo */
+}

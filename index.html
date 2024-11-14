@@ -1,0 +1,427 @@
+<html>
+ <head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <!-- Archivo CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="header.css">
+	 <link rel="stylesheet" href="organo.css"> <!-- Enlazar el nuevo archivo organo.css -->
+     <link rel="stylesheet" href="actividades.css"> <!-- Enlazar el nuevo archivo actividades.css -->
+     <link rel="stylesheet" href="tramites.css"> <!-- Enlazar el nuevo archivo tramites.css -->
+     <link rel="stylesheet" href="contactos.css"> <!-- Enlazar el nuevo archivo contactos.css -->
+  <title>
+   SECCION DE LICENCIAS DEL PERSONAL
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #f1f1f1;
+            padding: 5px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .top-bar .left {
+            display: flex;
+            align-items: center;
+        }
+        .top-bar .left img {
+            height: 20px;
+            margin-right: 10px;
+        }
+        .top-bar .left span {
+            font-size: 14px;
+        }
+        .top-bar .right {
+            display: flex;
+            align-items: center;
+        }
+        .top-bar .right a {
+            margin-left: 10px;
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header img {
+            height: 100px;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #003366;
+            margin: 10px 0 0 0;
+          
+        }
+        .header h2 {
+            font-size: 15px;
+            color: #03080e;
+            margin: 5px 0 0 0;
+          
+        }
+
+        .header .left-logo, .header .right-logo {
+            position: absolute;
+            top: 20px;
+        }
+        .header .left-logo {
+            left: 20px;
+        }
+        .header .right-logo {
+            right: 20px;
+        }
+        .nav-bar {
+            background-color: #72a7c7a3;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .nav-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-bar ul li {
+            margin: 0 15px;
+        }
+        .nav-bar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        .nav-bar ul li a:hover {
+            text-decoration: underline;
+        }
+        .nav-bar .search {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+        .nav-bar .search input {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .nav-bar .search button {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #003366;
+            color: #0c31d6;
+            border: none;
+            cursor: pointer;
+        }
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .top-bar .right {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            .header {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .header .left-logo, .header .right-logo {
+                position: static;
+                margin-bottom: 10px;
+            }
+            .nav-bar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-bar .search {
+                width: 100%;
+            }
+            .nav-bar .search input {
+                width: 90%;
+                max-width: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 20px;
+            }
+            .top-bar .left span, .top-bar .right span, .top-bar .right a {
+                font-size: 12px;
+            }
+            .nav-bar ul li a {
+                font-size: 14px;
+            }
+            .nav-bar .search input {
+                font-size: 14px;
+            }
+        }
+        .boton-regresar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-regresar:hover {
+    background-color: #45a049;
+}
+  </style>
+ </head>
+ <body>
+    <div class="header">
+   <div class="left-logo">
+    <img alt="Ministère des Transports Logo" src="logo.png"/>
+   </div>
+   <h1>
+    SECCION DE LICENCIAS DEL PERSONAL
+   </h1>
+   <h2>
+    AUTORIDAD AERONAUTICA DE GUINEA ECUATORIAL
+   </h2>
+  <div class="nav-bar">
+   <ul>
+    <li>
+     <a href="#">
+      <i class="fas fa-home">
+      </i>
+     </a>
+    </li>
+    <li>
+     <a href="#organigrama">
+     Organigrama
+      
+     </a>
+    </li>
+    <li>
+     <a href="#actividades">
+     Actividades
+     </a>
+    </li>
+    <li>
+        <li>
+            <a href="reglamentos.html">
+            Reglamentos
+            </a>
+           </li>
+           <li>
+
+     <a href="#tramites">
+      Tramites
+     </a>
+    </li>
+    <li>
+
+        <li>
+            <a href="formularios.html">
+            Formularios
+            </a>
+           </li>
+           <li>
+
+     <a href="#contactos">
+      Contactos
+     </a>
+    </li>
+       </ul>
+   
+  </div>
+
+
+
+
+   <!-- Sección ORGANIGRAMA -->
+   <section id="Organigrama" class="organograma">
+    <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 20px; ">ORGANIGRAMA</h2>
+    <img src="jefe.jpg" alt="Jefe de Sección" class="jefe-img">
+    <div class="jefe-caption">
+        <p>JEFE DE SECCION DE LICENCIAS DEL PERSONAL</p>
+        <p>Ing. Pablo Mangue ABAGA MICHA</p>
+        <p>Telefono:(+240) 222 223 110</p>
+    </div>
+
+ <!-- Tabla con las imágenes y leyendas -->
+ <table class="organograma-table">
+    <tr>
+        <td>
+            <img src="pedro.jpg" alt="Negociado de Licencias" class="negociado-img">
+            <div class="negociado-caption">
+                <p>NEGOCIADO DE LICENCIAS AL PERSONAL</p>
+                <p>Pedro Ondo NSI ANDEME</p>
+                <p>Telefono: (+240) 555 375 520</p>
+            </div>
+        </td>
+        <td>
+            <img src="formacion.jpg" alt="Negociado de Formación" class="negociado-img">
+            <div class="negociado-caption">
+                <p>NEGOCIADO DE FORMACION Y EXAMENES</p>
+                <p>Wilfredo Obama NGUEMA NCHAMA</p>
+                <p>Telefono: (+240) 555 699 362</p>
+            </div>
+        </td>
+        <td>
+            <img src="medicina.png" alt="Negociado de Medicina" class="negociado-img">
+            <div class="negociado-caption">
+                <p>NEGOCIADO DE MEDICINA AERONAUTICA</p>
+                <p>Diosdado MBA WATRE</p>
+                <p>Telefono: (+240) 222 280 694</p>
+                <p>Damaso BIBANG AYETO</p>
+                <p>Telefono: (+240) 222 199 920</p>
+            </div>
+        </td>
+        <td>
+            <img src="archivo.jpg" alt="Negociado de Registro" class="negociado-img">
+            <div class="negociado-caption">
+                <p>NEGOCIADO DE REGISTRO Y ARCHIVO</p>
+                <p>Rosa Nfono OVONO ASANGONO</p>
+                <p>Telefono: (+240) 222 050 020</p>
+            </div>
+        </td>
+    </tr>
+</table>
+<button class="boton-regresar" onclick="scrollToTop()">Regresar a Cabecera</button>
+</section>
+<!-- Nueva sección ACTIVIDADES -->
+<section id="actividades" class="actividades">
+    <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 20px; ">ACTIVIDADES DEL SERVICIO</h2>
+    <div class="actividades-content">
+        <div class="actividad">
+            <div class="numero">1</div>
+            <h3>Emisión de licencias</h3>
+            <p style="color:#ccc;"> El servicio se encarga de emitir licencias de personal aeronáutico a los profesionales que cumplan con los requisitos y aprueben las pruebas correspondientes.</p>
+        </div>
+        <div class="actividad">
+            <div class="numero">2</div>
+            <h3>Renovación de licencias</h3>
+            <p style="color:#ccc;">El servicio renueva las licencias de personal aeronáutico de forma periódica, asegurando que los profesionales mantengan su competencia y capacidad.</p>
+        </div>
+        <div class="actividad">
+            <div class="numero">3</div>
+            <h3>Seguimiento de licencias</h3>
+            <p style="color:#ccc;">El servicio realiza un seguimiento de las licencias de personal aeronáutico para garantizar que estén vigentes y que los profesionales cumplan con los requisitos legales y de seguridad.</p>
+        </div>
+        <div class="actividad">
+            <div class="numero">4</div>
+            <h3>Inspecciones de seguridad</h3>
+            <p style="color:#ccc;">El servicio realiza inspecciones de seguridad en las aeronaves, instalaciones,Centros de formación del personal aeronáutico, simuladores de entrenamiento  y personal aeronáutico para garantizar el cumplimiento de las normas y estándares.</p>
+        </div>
+        <div class="actividad">
+            <div class="numero">5</div>
+            <h3>Certificados médicos</h3>
+            <p style="color:#ccc;">El servicio se encarga de gestionar los certificados médicos del personal aeronáutico.</p>
+        </div>
+    </div>
+    <button class="boton-regresar" onclick="scrollToTop()">Regresar a Cabecera</button>
+</section>
+
+<!-- Nueva sección TRÁMITES -->
+<section id="tramites" class="tramites">
+    <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 20px; text-align:center; ">TRAMITES Y SOLICITUD DE INFORMACION</h2>
+    <div class="tramites-content">
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Requisitos para obtener una licencia </p>
+        </div>
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Solicitud de información sobre el proceso de renovación de una licencia</p>
+        </div>
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Modificación o actualización de los datos personales en una licencia vigente</p>
+        </div>
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Emisión de certificados médicos para el personal aeronáutico</p>
+        </div>
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Certificaciones de competencia técnica para pilotos y personal de vuelo</p>
+        </div>
+
+
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Certificación de centros de Formación </p>
+        </div>
+
+
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Certificación de centros de simuladores</p>
+        </div>
+
+
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Certificación de centro de medicina aeronauticos</p>
+        </div>
+
+
+        <div class="tramite">
+            <span class="icono">▶</span>
+            <p>Certificación de competencia lingüística</p>
+        </div>
+
+
+
+
+
+    </div>
+    <button class="boton-regresar" onclick="scrollToTop()">Regresar a Cabecera</button>
+</section>
+
+
+
+<!-- Nueva sección CONTACTOS -->
+<section id="contactos" class="contactos">
+    <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 20px; ">CONTACTOS</h2>
+     <!-- Contenedor principal que agrupa todas las secciones en una sola línea -->
+     <div class="main-container">
+        
+        <!-- Sección para la ubicación -->
+        <div class="container">
+            <img src="ubicacion.png" alt="Ubicación" class="icon">
+            <div class="text">Malabo II, Autovia Aeropuerto, Malabo, Guinea Ecuatorial</div>
+        </div>
+
+        <!-- Sección para el correo -->
+        <div class="container">
+            <img src="email.png" alt="Correo" class="icon">
+            <a href="mailto:oficina-pel@aage.info">oficina-pel@aage.info</a>
+        </div>
+    </div>
+    <button class="boton-regresar" onclick="scrollToTop()">Regresar a Cabecera</button>
+    <button class="boton-regresar" onclick="scrollToTop()">Regresar a Cabecera</button>
+</section>
+
+
+
+ </body>
+ <footer>
+    <p style="color:white;">© 2024 aage.info. Todos los derechos reservados.</p>
+</footer>
+<!-- Enlace al archivo JavaScript -->
+<script src="script.js"></script>
+</html>

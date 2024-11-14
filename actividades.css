@@ -1,0 +1,55 @@
+/* Estilos para la sección de actividades */
+.actividades {
+    background-image: url('avion.jpg'); /* Fondo con la imagen del avión */
+    background-size: cover; /* Cubrir toda la sección con la imagen */
+    background-position: center;
+    padding: 50px 20px; /* Espaciado interno de la sección */
+    color: rgba(135, 206, 250, 1); /* Texto en color blanco para mayor contraste */
+    text-align: center; /* Centrar el texto */
+}
+
+.actividades-title {
+    font-size: 36px; /* Tamaño del título de la sección */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+.actividades-content {
+    display: flex; /* Usar flexbox para organizar el contenido */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+    justify-content: space-around; /* Espaciado uniforme entre los elementos */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.actividad {
+    background-color: rgba(46, 46, 46, 1); /* Fondo semitransparente para el bloque de cada actividad */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    width: 250px; /* Ancho de cada actividad */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para resaltar cada actividad */
+}
+
+.numero {
+    background-color: #e3f02bda; /* Color de fondo para el número */
+    color: white; /* Color del número */
+    font-size: 24px; /* Tamaño del número */
+    font-weight: bold; /* Negrita para el número */
+    border-radius: 50%; /* Forma redonda */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto; /* Centrar y agregar margen inferior */
+}
+
+h3 {
+    font-size: 18px; /* Tamaño del título de cada actividad */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+p {
+    font-size: 14px; /* Tamaño del texto */
+    
+        line-height: 1.5; /* Altura de línea para mejor legibilidad */
+}

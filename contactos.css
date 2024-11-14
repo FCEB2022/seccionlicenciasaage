@@ -1,0 +1,43 @@
+/* Estilos para la sección de contactos */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajusta la distribución horizontal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si el espacio no es suficiente */
+    gap: 20px; /* Espacio entre los grupos de icono y texto */
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 50px; /* Ajusta el tamaño del icono si es necesario */
+    height: 50px; /* Ajusta el tamaño del icono si es necesario */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.text {
+    font-size: 16px;
+    color: #000; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #8a0404;
+    color: #f3fafb;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Cambio a relative para que no cubra el contenido */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Solución para evitar que el pie de página cubra contenido */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}

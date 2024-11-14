@@ -1,1 +1,2 @@
-# seccionlicenciasaage
+# seccionlicenciasresponsivo
+seccion licencias responsivo
