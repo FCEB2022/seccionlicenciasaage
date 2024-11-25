@@ -37,6 +37,11 @@
     color: #4a56e2; /* Color del icono */
     margin-right: 10px; /* Espacio entre el icono y el texto */
 }
+.icono2 {
+    font-size: 20px; /* Tamaño del icono */
+    color: #f21111; /* Color del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
 
 p {
     font-size: 16px; /* Tamaño del texto */
